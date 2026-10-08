@@ -133,3 +133,23 @@ details p{color:#d9ceff;margin-top:10px;font-size:.92rem}
 
 @media(min-width:900px){body{background:radial-gradient(80% 50% at 50% 0,#2d1a6b,var(--bg) 70%)}}
 @media(prefers-reduced-motion:reduce){.ticker-track span{animation:none;padding-left:0}html{scroll-behavior:auto}}
+
+/* topic pages */
+.article{padding-bottom:30px}
+.article h1{font-size:1.6rem;line-height:1.2;margin:8px 0 12px}
+.article h2{font-size:1.2rem;margin:22px 0 8px}
+.article p{color:#d9ceff;margin-bottom:12px}
+.article .lead{font-size:1.05rem;color:var(--text)}
+.article .btn{margin:6px 0 10px}
+.crumbs{font-size:.82rem;color:var(--mute)}
+.crumbs a{text-decoration:underline}
+.hero-banner{display:block;width:100%;height:auto;border-radius:14px;border:1px solid var(--line);margin:8px 0}
+.hero-game{display:block;width:120px;height:120px;border-radius:16px;border:1px solid var(--line);margin:8px 0}
+.bullets,.steps-list{margin:0 0 12px 22px;color:#d9ceff}
+.bullets{list-style:disc}.steps-list{list-style:decimal}
+.bullets li,.steps-list li{margin-bottom:6px}
+.related{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
+.related .box{display:block;padding:12px;background:var(--card);border:1px solid var(--line);border-radius:14px}
+.related .box h3{font-size:.92rem;margin:0}
+.explore{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
+.explore a{display:block;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px;font-weight:700;font-size:.92rem}
