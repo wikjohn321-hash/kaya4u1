@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.kaya4u.example/sitemap.xml
+Sitemap: https://www.kaya4u.app/sitemap.xml
