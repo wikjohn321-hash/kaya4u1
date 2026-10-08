@@ -88,6 +88,7 @@ img.tile{display:block;width:100px;object-fit:cover}
 
 /* cards */
 .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+a.card,.win a{display:block;color:inherit}
 .card{background:var(--card);border:1px solid var(--line);border-radius:16px;overflow:hidden;transition:transform .2s}
 .card:hover{transform:translateY(-3px)}
 .card[hidden]{display:none}
